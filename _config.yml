@@ -3,19 +3,19 @@ markdown:         redcarpet
 highlighter:      pygments
 
 # Permalinks
-permalink:        pretty
+permalink:        /:categories/:title/
 relative_permalinks: true
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
+title:            daviwil.com
+tagline:          'Thoughts on technology, creativity, and life.'
+description:      'Thoughts on technology, creativity, and life.'
+url:              http://daviwil.com
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'David Wilson'
+  url:            https://twitter.com/daviwil
 
 paginate:         5
 
