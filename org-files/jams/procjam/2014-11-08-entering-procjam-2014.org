@@ -1,0 +1,57 @@
+#+STARTUP: showall indent
+#+BEGIN_HTML
+---
+layout: post
+title: "Entering PROCJAM 2014"
+categories: [jams, procjam]
+---
+#+END_HTML
+
+This weekend a new game jam called [[http://itch.io/jam/procjam][PROCJAM]] begins.  The goal is to
+create a game or tools that can generate content procedurally.  I've
+been experimenting with [[http://clojure.org][Clojure]], [[http://quil.info/][Quil]], and [[http://overtone.github.io/][Overtone]] lately, so a game
+with procedural world and music generation seemed to be a great
+project.  I decided to enter this jam and enlisted my friend [[http://alexmorais.com][Alex]] to
+help me.
+
+* So what are we making?
+
+Our plan is to develop a simple semi-[[http://en.wikipedia.org/wiki/Roguelike][roguelike]], atmospheric platformer
+that takes a lot of inspiration from Nifflas' classic game [[http://nifflas.ni2.se/?page=Knytt][Knytt]].  The
+plan is to have a new procedurally generated world each playthrough
+with music that is always unique and driven by the actions of the
+player.  We are using the roguelike design principle of [[http://en.wikipedia.org/wiki/Permanent_death][permadeath]] so
+that once you die, you must start over in a newly generated world.
+This is reminiscent of the recent game [[http://www.roguelegacy.com][Rogue Legacy]].  Since neither of
+us are artists, we will be using primitive shapes for the graphics in
+this game.  Hopefully keeping things abstract will still allow for an
+interesting experience.
+
+* The game is called "Kleffs," or "How I Learned to Stop Worrying and Love the Randomness"
+
+You play the role of a being named Kleff who lives in a world that is
+held together by musical harmony.  The chaotic force Dissonance has
+taken important musical artifacts and scattered them around the world
+to throw harmony out of balance.  Kleff is called to retrieve these
+artifacts to restore harmony and save the world from destruction.  We
+call the game *Kleffs* because it seems that there are infinite
+Kleffs; when one dies, another rises to carry on the mission.
+
+* Can we have some more hours, please?
+
+PROCJAM is running for a little over a week (Friday the 8th to Monday
+the 17th) so there is a generous amount of time to work on this
+project.  Unfortunately both Alex and I have family obligations so we
+can't spend many hours coding.  Our goal is to do as much as we can to
+create a playable prototype of the concept by the end of the jam.  From
+there we may continue working on it to complete the game.
+
+* I will tell and show you things.  Hopefully.
+
+I will be posting short updates on [[http://twitter.com/daviwil][Twitter]] this week as we work on the
+game.  We are working on the visuals first so hopefully we will have
+some nice screenshots to share soon.  Once we get procedural music
+into the game, I may post a video demonstration.  The code is being
+developed openly and you can see what little (oh so little) we have so
+far at our [[http://github.com/daviwil/kleffs][GitHub repository]].
+
